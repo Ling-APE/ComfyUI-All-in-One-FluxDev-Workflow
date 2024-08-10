@@ -61,7 +61,9 @@ I've only tested the Canny and Realism LoRAs from XLabs-AI, and here are some ke
 
 # Dynamic Thresholding and Negative Prompting
 
-The Ksampler workflow with dynamic thresholding is based on the official ComfyUI [blog post](https://blog.comfy.org/august-2024-flux-support-new-frontend-for-loops-and-more/). Keep in mind that this is my own interpretation and not fully tested.
+![workflow](Gen_Demo/NegP.png) 
+
+The Ksampler workflow with dynamic thresholding is based on the official ComfyUI [blog post](https://blog.comfy.org/august-2024-flux-support-new-frontend-for-loops-and-more/). Keep in mind that this is my own interpretation and feel free to make any changes and experiment.
 
 And I quote:
 
@@ -70,6 +72,8 @@ Note for both models you can either use `SamplerCustomAdvanced` with `BasicGuide
 Demo generation with this implementation:
 
 # The Pixel Resolution Calculator Node
+
+![workflow](Gen_Demo/LatentTOPixel.png)  ![workflow](Gen_Demo/PixelCal.png) 
 
 You can find the repo [here](https://github.com/...).
 
