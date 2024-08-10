@@ -2,8 +2,6 @@
 
 ![workflow](Gen_Demo/Gen2_us.png) 
 
-![workflow](workflow.png) 
-
 I've created an All-in-One FluxDev workflow in ComfyUI that combines various techniques for generating images with the FluxDev model, including img-to-img and text-to-img. This workflow can use LoRAs, ControlNets, enabling negative prompting with Ksampler, dynamic thresholding, inpainting, and more. Please note that this is not the "correct" way of using these techniques, but rather my personal interpretation based on the available information.
 
 **Heavily Utilizing the USE Everywhere Node**
@@ -11,6 +9,8 @@ I've created an All-in-One FluxDev workflow in ComfyUI that combines various tec
 This workflow relies heavily on the  [USE Everywhere node](https://github.com/chrisgoringe/cg-use-everywhere) to make it as clean and efficient as possible for my daily generation needs. I'm sharing this workflow with the community to gather insights and suggestions for improvement. Feel free to experiment on your own.
 
 # Main Features
+
+![workflow](workflow.png) 
 
 * Switch between image-to-image and text-to-image generation
 * For text-to-image generation, choose from predefined SDXL resolution or use the Pixel Resolution Calculator node to create a resolution based on aspect ratio and megapixel via the switch
