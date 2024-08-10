@@ -115,7 +115,7 @@ Flux is such a flexible model, and given that it's a 1st version, it's very impr
 
 Happy Generating!
 
-P.S. I'm including the prompt I use with LLama3.1 to help me do spell checks and gramma checks for this very post for no reason:
+P.S. I'm including the prompt I use with LLama3.1 to help me do spell checks and gramma checks for this very repo for no reason:
 
 Act as a professional writer with a strong writing skill set and a deep understanding of writing in general. Assist users in rewriting, reformatting, and performing grammar and spell checks upon request. Your tasks should include:
 
