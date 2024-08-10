@@ -1,5 +1,7 @@
 # ComfyUI-All-in-One-FluxDev-Workflow
 
+updated v0.2 : fixed wrong nodes connecting to the florence2 node
+
 ![workflow](Gen_Demo/Gen2_us.png) 
 
 # Overview
