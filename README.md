@@ -83,7 +83,7 @@ The Pixel Resolution Calculator is a custom node I developed with the help of LL
 
 # Upscaling with Tiled Diffusion
 
-An upscaling workflow is also included. It uses the Iterative Upscale (Image) node from the Impact pack to create a high-res fix like upscaling and detailing with the upscale model of your choice. You can also do denoise, CFG, and step scheduling with the PK hook.
+An upscaling workflow is also included. It uses the Iterative Upscale (Image) node from the Impact pack and [tiled diffusion](https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111) to create a high-res fix like upscaling and detailing node group with the upscale model of your choice. You can also do denoise, CFG, and step scheduling with the PK hook.
 
 ![workflow](Gen_Demo/us-com.png) 
 
