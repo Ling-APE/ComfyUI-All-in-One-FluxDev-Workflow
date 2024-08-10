@@ -75,7 +75,7 @@ You can find the repo [here](https://github.com/...).
 
 The Pixel Resolution Calculator is a custom node I developed with the help of LLama3.1 yesterday (Yes have no programming skills, learning on th way from scratch). It's just a very simple node that generates the closest "latent-friendly" pixel resolution from your megapixel and aspect ratio of choice. I took inspiration from the ImageScaleToTotalPixels node from the original Flux demo workflow, as everyone seems to talk about pixel resolution instead of width and height pixel count like in SDXL. There is also a node to convert a latent sample input to width and height pixel count.
 
-### Upscaling with Tiled Diffusion
+# Upscaling with Tiled Diffusion
 
 An upscaling workflow is also included. It uses the Iterative Upscale (Image) node from the Impact pack to create a high-res fix like upscaling and detailing with the upscale model of your choice. You can also do denoise, CFG, and step scheduling with the PK hook.
 
