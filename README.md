@@ -26,7 +26,7 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 
 ## Using this Workflow
 
-1. Updated : No custom installation required, you can now find the nodes in the manager. ~~ install Pixel Resolution Calculator custom nodes via git URL in ComfyUI Manager (I did not submit a pull yet) url : https://github.com/Ling-APE/ComfyUI-PixelResolutionCalculator ~~
+1. Updated : No custom installation required, you can now find the nodes in the manager. ~~install Pixel Resolution Calculator custom nodes via git URL in ComfyUI Manager (I did not submit a pull yet) url : https://github.com/Ling-APE/ComfyUI-PixelResolutionCalculator~~
 2. Download and import the JSON file into ComfyUI
 3. Install missing nodes via ComfyUI manager
 4. Configure the switches
