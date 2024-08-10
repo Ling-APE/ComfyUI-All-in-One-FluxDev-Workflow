@@ -47,6 +47,10 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 
 Launch ComfyUI with the "--lowvram" argument (add to your .bat file) to offload the text encoder to CPU
 
+## Known bugs
+
+* if you use Ctrl + Z to undo changes, some anywhere nodes will unlink by themselves, find the nodes that lost the link, unplug and replug the inputs, everything should work again.
+
 # ControlNet and LoRA
 
 At the time of creating this workflow, there are two available ControlNets and several LoRAs, including:
