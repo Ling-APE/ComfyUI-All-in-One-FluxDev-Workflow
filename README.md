@@ -38,7 +38,7 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 ## Requirements
 
 * My [Pixel Resolution Calculator custom nodes](https://github.com/Ling-APE/ComfyUI-PixelResolutionCalculator) (optional)
-* Original weights: [flux1-dev.sft](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.sft)
+* Original weights: [flux1-dev.safetensors](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.safetensors)
 * FP8 version (for <24GB VRAM systems): [flux1-dev-fp8.safetensors](https://huggingface.co/Kijai/flux-fp8/blob/main/flux1-dev-fp8.safetensors)
 * Text encoders (place in `ComfyUI/models/clip`): [flux_text_encoders](https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main)
 * VAE (place `ae.sft` in `ComfyUI/models/vae`): [ae.safetensors](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/ae.safetensors)
