@@ -44,6 +44,10 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 * Text encoders (place in `ComfyUI/models/clip`): [flux_text_encoders](https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main)
 * VAE (place `ae.sft` in `ComfyUI/models/vae`): [ae.sft](https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.sft)
 * For lower RAM usage, download the FP8 T5XXL encoder (with some quality degradation)
+* xlabs-ai flux-controlnet-canny weight [controlnet.safetensors](https://huggingface.co/XLabs-AI/flux-controlnet-canny/tree/main)  (place under `ComfyUI/models/controlnet` , open folder if needed)
+* flux_RealismLora_converted [flux_realism_lora.safetensors](https://huggingface.co/comfyanonymous/flux_RealismLora_converted_comfyui/tree/main)  (place under `ComfyUI/models/loras` , open folder if needed)
+* Ollama and llava:13b (optional)
+* Microsoft Florence 2 model (optional, but should be downloaded automatically the first time you run it)
 
 **Low VRAM Setup:**
 
