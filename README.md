@@ -69,7 +69,9 @@ And I quote:
 
 Note for both models you can either use `SamplerCustomAdvanced` with `BasicGuider`, or if you use `KSampler`, set `CFG` to `1`. You can use the new `FluxGuidance` on the Dev model to control the distilled CFG-like value. (Setting this to 2 is recommended for realism or better style control) These models are trained to work without real CFG. That's not to say you can never use CFG though - in fact, the community has rapidly taken advantage of ComfyUI as an experimentation platform to test out a wide variety of tricks to get the most out of the new models. (Such as using the Dynamic Thresholding custom node, or using the new `FluxGuidance` built-in node to compensate, and enable CFG and negative prompting. There's also `ModelSamplingFlux` built-in to control Flux sigma shift, though its benefits are more limited.)
 
-Demo generation with this implementation:
+0 shot non cherry pick demo with this sampling method:
+
+![workflow](Gen_Demo/Demo1.png)  ![workflow](Gen_Demo/Demo2.png) 
 
 # The Pixel Resolution Calculator Node
 
