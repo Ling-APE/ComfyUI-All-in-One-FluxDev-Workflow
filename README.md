@@ -107,7 +107,7 @@ More detailed guide will be added if people find it hard to use....
 
 --------------------------------------------------------------------------
 
-# BULLSHITTING
+# BS
 
 Flux is such a flexible model, and given that it's a 1st version, it's very impressive. Within two weeks of releasing, there are already ControlNets and LoRAs available, which shows how much the community loves this model. I'm now looking forward to some inpainting models. And most importantly, Matteo, please release an iPadapter for Flux.... please , the one missing puzzle and I'm complete....
 
