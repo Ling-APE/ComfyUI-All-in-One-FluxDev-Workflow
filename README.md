@@ -41,7 +41,7 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 * Original weights: [flux1-dev.sft](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.sft)
 * FP8 version (for <24GB VRAM systems): [flux1-dev-fp8.safetensors](https://huggingface.co/Kijai/flux-fp8/blob/main/flux1-dev-fp8.safetensors)
 * Text encoders (place in `ComfyUI/models/clip`): [flux_text_encoders](https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main)
-* VAE (place `ae.sft` in `ComfyUI/models/vae`): [ae.safetensors](https://huggingface.co/black-forest-labs/FLUX.1-schnell/blob/main/ae.safetensors)
+* VAE (place `ae.sft` in `ComfyUI/models/vae`): [ae.safetensors](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/ae.safetensors)
 * For lower RAM usage, download the FP8 T5XXL encoder (with some quality degradation)
 * xlabs-ai flux-controlnet-canny weight [controlnet.safetensors](https://huggingface.co/XLabs-AI/flux-controlnet-canny/tree/main)  (place under `ComfyUI/models/controlnet` , open folder if needed)
 * flux_RealismLora_converted [flux_realism_lora.safetensors](https://huggingface.co/comfyanonymous/flux_RealismLora_converted_comfyui/tree/main)  (place under `ComfyUI/models/loras` , open folder if needed)
