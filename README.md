@@ -110,7 +110,7 @@ Since there is yet no inpainting model trained for Flux, only the simplest form 
 
 # Ollama and Florence2
 
-Just some simples notes to run ollama and Florence2 for using vision LLm for detail captioning and to get prompt insights, I'm using LLaVa 13B and Florence2 large in the demo, You will need [Ollama](https://ollama.com/) , [Ollama ComfyUI](https://github.com/stavsap/comfyui-ollama) and [Florence2 ComfyUI](https://github.com/kijai/ComfyUI-Florence2) nodes, see the links for detailed usage and installation guide.
+Just some simples nodes to run ollama and Florence2 for using vision LLm for detail captioning and to get prompt insights, I'm using LLaVa 13B and Florence2 large in the demo, You will need [Ollama](https://ollama.com/) , [Ollama ComfyUI](https://github.com/stavsap/comfyui-ollama) and [Florence2 ComfyUI](https://github.com/kijai/ComfyUI-Florence2) nodes, see the links for detailed usage and installation guide.
 
 # Detailed guide
 
