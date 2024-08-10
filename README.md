@@ -83,7 +83,7 @@ Note for both models you can either use `SamplerCustomAdvanced` with `BasicGuide
 
 You can find the repo [here](https://github.com/Ling-APE/ComfyUI-PixelResolutionCalculator).
 
-The Pixel Resolution Calculator is a custom node I developed with the help of LLama3.1 yesterday (Yes have no programming skills, learning on th way from scratch). It's just a very simple node that generates the closest "latent-friendly" pixel resolution from your megapixel and aspect ratio of choice. I took inspiration from the ImageScaleToTotalPixels node from the original Flux demo workflow, as everyone seems to talk about pixel resolution instead of width and height pixel count like in SDXL. There is also a node to convert a latent sample input to width and height pixel count.
+The Pixel Resolution Calculator is a custom node I developed with the help of LLama3.1 yesterday (Yes I have no programming skills, learning it on the way from scratch). It's just a very simple node that generates the closest "latent-friendly" pixel resolution from your megapixel and aspect ratio of choice. I took inspiration from the ImageScaleToTotalPixels node from the original Flux demo workflow, as everyone seems to talk about pixel resolution instead of width and height pixel count like in SDXL. There is also a node to convert a latent sample input to width and height pixel count.
 
 # Upscaling with Tiled Diffusion
 
