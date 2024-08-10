@@ -31,7 +31,8 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 4. Configure the switches
 5. Add prompts(or use detailed captions from vision LLMs)
 6. Upload ControlNet image (optional)
-7. Generate!
+7. Bypass/unbypass the nodes you need
+8. Generate!
 
 ## Requirements
 
