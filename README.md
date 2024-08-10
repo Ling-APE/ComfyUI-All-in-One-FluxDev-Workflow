@@ -95,7 +95,7 @@ Demo image compare [here](https://imgsli.com/Mjg2MTE4).
 
 # Inpainting
 
-Since there is yet no inpainting model trained for Flux, only the simplest form of inpainting can be achieved here. You can also try to incorporate ControlNets, but keep in mind the square-based resolution and guidance scale.
+Since there is yet no inpainting model trained for Flux, only the simplest form of inpainting can be achieved here. You can also try to incorporate ControlNets, but pay attention to the square-based resolution and guidance scale (4) .
 
 # Ollama and Florence2
 
