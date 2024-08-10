@@ -69,11 +69,11 @@ I've only tested the Canny and Realism LoRAs from XLabs-AI, and here are some ke
 
 ![workflow](Gen_Demo/NegP.png) 
 
-The Ksampler workflow with dynamic thresholding is based on the official ComfyUI [blog post](https://blog.comfy.org/august-2024-flux-support-new-frontend-for-loops-and-more/). Keep in mind that this is my own interpretation and feel free to make any changes and experiment.
-
-And I quote:
+The Ksampler workflow with dynamic thresholding is based on the official ComfyUI [blog post](https://blog.comfy.org/august-2024-flux-support-new-frontend-for-loops-and-more/). And I quote:
 
 Note for both models you can either use `SamplerCustomAdvanced` with `BasicGuider`, or if you use `KSampler`, set `CFG` to `1`. You can use the new `FluxGuidance` on the Dev model to control the distilled CFG-like value. (Setting this to 2 is recommended for realism or better style control) These models are trained to work without real CFG. That's not to say you can never use CFG though - in fact, the community has rapidly taken advantage of ComfyUI as an experimentation platform to test out a wide variety of tricks to get the most out of the new models. (Such as using the Dynamic Thresholding custom node, or using the new `FluxGuidance` built-in node to compensate, and enable CFG and negative prompting. There's also `ModelSamplingFlux` built-in to control Flux sigma shift, though its benefits are more limited.)
+
+Keep in mind that this is my own interpretation and feel free to make any changes and experiment.
 
 0 shot non cherry pick demo with this sampling method:
 
