@@ -7,7 +7,7 @@ I've created an All-in-One FluxDev workflow in ComfyUI that combines various tec
 
 This workflow relies heavily on the USE Everywhere node to make it as clean and efficient as possible for my daily generation needs. I'm sharing this workflow with the community to gather insights and suggestions for improvement. Feel free to experiment on your own
 
-#### Main Features
+# Main Features
 
 * Switch between image-to-image and text-to-image generation
 * For text-to-image generation, choose from predefined SDXL resolution or use the Pixel Resolution Calculator node to create a resolution based on aspect ratio and megapixel via the switch
@@ -17,7 +17,7 @@ This workflow relies heavily on the USE Everywhere node to make it as clean and 
 * Simple inpainting
 * High-res fix like iterative upscaling with Tiled Diffusion
 
-#### Using this Workflow
+## Using this Workflow
 
 1. Download and import the JSON file into ComfyUI
 2. Install missing nodes via ComfyUI manager
@@ -25,7 +25,7 @@ This workflow relies heavily on the USE Everywhere node to make it as clean and 
 4. Upload ControlNet image (optional)
 5. Generate!
 
-#### Requirements
+## Requirements
 
 * My Pixel Resolution Calculator custom nodes(optional)
 * Original weights: [flux1-dev.sft](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.sft)
@@ -38,7 +38,7 @@ This workflow relies heavily on the USE Everywhere node to make it as clean and 
 
 Launch ComfyUI with the "--lowvram" argument (add to your .bat file) to offload the text encoder to CPU
 
-#### ControlNet and LoRA
+# ControlNet and LoRA
 
 At the time of creating this workflow, there are two available ControlNets and several LoRAs, including:
 
@@ -55,7 +55,7 @@ I've only tested the Canny and Realism LoRAs from XLabs-AI, and here are some ke
 * XLabs controlnet falls under the [FLUX.1 [dev]](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/LICENSE.md) Non-Commercial License and as for intantX I am too lazy to find any info about if (It should be the same, right?)
 * LoRA workflow based on [Simple+Advanced FLUX.1 ComfyUI Workflows](https://civitai.com/models/618997) by markury
 
-#### Dynamic Thresholding and Negative Prompting
+# Dynamic Thresholding and Negative Prompting
 
 The Ksampler workflow with dynamic thresholding is based on the official ComfyUI [blog post](https://blog.comfy.org/august-2024-flux-support-new-frontend-for-loops-and-more/). Keep in mind that this is my own interpretation and not fully tested.
 
@@ -65,7 +65,7 @@ Note for both models you can either use `SamplerCustomAdvanced` with `BasicGuide
 
 Demo generation with this implementation:
 
-#### The Pixel Resolution Calculator Node
+# The Pixel Resolution Calculator Node
 
 You can find the repo [here](https://github.com/...).
 
@@ -77,13 +77,13 @@ An upscaling workflow is also included. It uses the Iterative Upscale (Image) no
 
 Demo image:
 
-#### Inpainting
+# Inpainting
 
 Since there is yet no inpainting model trained for Flux, only the simplest form of inpainting can be achieved here. You can also try to incorporate ControlNets, but keep in mind the square-based resolution and guidance scale.
 
 --------------------------------------------------------------------------
 
-#### BULLSHITTING
+# BULLSHITTING
 
 Flux is such a flexible model, and given that it's a 1st version, it's very impressive. Within two weeks of releasing, there are already ControlNets and LoRAs available, which shows how much the community loves this model. I'm now looking forward to some inpainting models. And most importantly, Matteo, please release an iPadapter for Flux.... please , the one missing puzzle and I'm complete....
 
