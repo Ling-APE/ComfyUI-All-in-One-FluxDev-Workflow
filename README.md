@@ -31,7 +31,7 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 
 ## Requirements
 
-* My Pixel Resolution Calculator custom nodes(optional)
+* My [Pixel Resolution Calculator custom nodes](https://github.com/Ling-APE/ComfyUI-PixelResolutionCalculator) (optional)
 * Original weights: [flux1-dev.sft](https://huggingface.co/black-forest-labs/FLUX.1-dev/blob/main/flux1-dev.sft)
 * FP8 version (for <24GB VRAM systems): [flux1-dev-fp8.safetensors](https://huggingface.co/Kijai/flux-fp8/blob/main/flux1-dev-fp8.safetensors)
 * Text encoders (place in `ComfyUI/models/clip`): [flux_text_encoders](https://huggingface.co/comfyanonymous/flux_text_encoders/tree/main)
@@ -77,7 +77,7 @@ Note for both models you can either use `SamplerCustomAdvanced` with `BasicGuide
 
 ![workflow](Gen_Demo/LatentTOPixel.png)  ![workflow](Gen_Demo/PixelCal.png) 
 
-You can find the repo [here](https://github.com/...).
+You can find the repo [here](https://github.com/Ling-APE/ComfyUI-PixelResolutionCalculator).
 
 The Pixel Resolution Calculator is a custom node I developed with the help of LLama3.1 yesterday (Yes have no programming skills, learning on th way from scratch). It's just a very simple node that generates the closest "latent-friendly" pixel resolution from your megapixel and aspect ratio of choice. I took inspiration from the ImageScaleToTotalPixels node from the original Flux demo workflow, as everyone seems to talk about pixel resolution instead of width and height pixel count like in SDXL. There is also a node to convert a latent sample input to width and height pixel count.
 
