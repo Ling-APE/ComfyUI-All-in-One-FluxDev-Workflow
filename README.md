@@ -24,7 +24,7 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 
 ## Using this Workflow
 
-1. install Pixel Resolution Calculator custom nodes via git clone (I did not submit a pull yet)
+1. install Pixel Resolution Calculator custom nodes via git URL in ComfyUI Manager (I did not submit a pull yet)
 2. Download and import the JSON file into ComfyUI
 3. Install missing nodes via ComfyUI manager
 4. Configure the switches
