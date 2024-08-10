@@ -79,7 +79,9 @@ The Pixel Resolution Calculator is a custom node I developed with the help of LL
 
 An upscaling workflow is also included. It uses the Iterative Upscale (Image) node from the Impact pack to create a high-res fix like upscaling and detailing with the upscale model of your choice. You can also do denoise, CFG, and step scheduling with the PK hook.
 
-Demo image [here](https://imgsli.com/Mjg2MTE4).
+![workflow](Gen_Demo/us-com.png) 
+
+Demo image compare [here](https://imgsli.com/Mjg2MTE4).
 
 # Inpainting
 
