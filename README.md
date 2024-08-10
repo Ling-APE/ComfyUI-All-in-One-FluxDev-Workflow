@@ -24,12 +24,13 @@ This workflow relies heavily on the  [USE Everywhere node](https://github.com/ch
 
 ## Using this Workflow
 
-1. Download and import the JSON file into ComfyUI
-2. Install missing nodes via ComfyUI manager
-3. Configure the switches
-4. Add prompts(or use detailed captions from vision LLMs)
-5. Upload ControlNet image (optional)
-6. Generate!
+1. install Pixel Resolution Calculator custom nodes via git clone (I did not submit a pull yet)
+2. Download and import the JSON file into ComfyUI
+3. Install missing nodes via ComfyUI manager
+4. Configure the switches
+5. Add prompts(or use detailed captions from vision LLMs)
+6. Upload ControlNet image (optional)
+7. Generate!
 
 ## Requirements
 
