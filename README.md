@@ -54,7 +54,7 @@ At the time of creating this workflow, there are two available ControlNets and s
 * [Canny ControlNet](https://huggingface.co/XLabs-AI/flux-controlnet-canny/tree/main) and [Realism LoRA](https://huggingface.co/XLabs-AI/flux-RealismLora) from [XLabs-AI](https://huggingface.co/XLabs-AI)
 * [Canny controlnet](https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Canny-alpha/tree/main) from [InstantX](https://huggingface.co/InstantX)
 * [Aesthetic (anime) LoRA for FLUX](https://civitai.com/models/633553?modelVersionId=708301) by advokat
-* I also found a [control netunion model page](https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Union-alpha) under the instantX's hugging face, so maybe we will have a union model in a near future.
+* I also found a [control netunion model page](https://huggingface.co/InstantX/FLUX.1-dev-Controlnet-Union-alpha) under instantX's hugging face page, so maybe we will have a union model in the near future.
 
 I've only tested the Canny and Realism LoRAs from XLabs-AI, and here are some key takeaways:
 
