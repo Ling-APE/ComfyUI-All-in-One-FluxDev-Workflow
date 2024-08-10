@@ -1,5 +1,6 @@
 # ComfyUI-All-in-One-FluxDev-Workflow
 
+![workflow](workflow.png) 
 
 I've created an All-in-One FluxDev workflow in ComfyUI that combines various techniques for generating images with the FluxDev model, including img-to-img and text-to-img. This workflow can use LoRAs, ControlNets, enabling negative prompting with Ksampler, dynamic thresholding, inpainting, and more. Please note that this is not the "correct" way of using these techniques, but rather my personal interpretation based on the available information.
 
