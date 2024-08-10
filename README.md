@@ -6,7 +6,7 @@ I've created an All-in-One FluxDev workflow in ComfyUI that combines various tec
 
 **Heavily Utilizing the USE Everywhere Node**
 
-This workflow relies heavily on the USE Everywhere node to make it as clean and efficient as possible for my daily generation needs. I'm sharing this workflow with the community to gather insights and suggestions for improvement. Feel free to experiment on your own
+This workflow relies heavily on the  [USE Everywhere node](https://github.com/chrisgoringe/cg-use-everywhere) to make it as clean and efficient as possible for my daily generation needs. I'm sharing this workflow with the community to gather insights and suggestions for improvement. Feel free to experiment on your own
 
 # Main Features
 
