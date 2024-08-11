@@ -1,6 +1,8 @@
 # ComfyUI-All-in-One-FluxDev-Workflow
 
-updated v0.2 : fixed wrong nodes connecting to the florence2 node
+Updated v0.2 : fixed wrong nodes connecting to the florence2 node
+
+Update 08-11-2024 : After a bit of fiddling around I found a way to reproduce the high quality image with controlnet as they demonstrate on their Github/HF page, I also found out that the 2 sampling methods can be combined and reorganized into a simpler and more efficient approach, I will update v0.3 soon to include all these changes. 
 
 ![workflow](Gen_Demo/Gen2_us.png) 
 
